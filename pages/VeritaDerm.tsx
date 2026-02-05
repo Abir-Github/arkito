@@ -11,7 +11,7 @@ const VeritaDerm: React.FC = () => {
             <FadeInSection>
               <h1 className="text-6xl md:text-8xl font-bold tracking-premium mb-8">VeritaDerm.</h1>
               <p className="text-xl text-gray-400 max-w-3xl font-light leading-relaxed">
-                Advanced open-source dermatological classifier. Built on ARKITO-YOLOv11 custom backbones for surgical-grade precision at the edge.
+                Advanced open-source dermatological classifier. Built on YOLOv11 custom backbones for surgical-grade precision at the edge.
               </p>
             </FadeInSection>
           </div>
@@ -40,7 +40,7 @@ const VeritaDerm: React.FC = () => {
             <FadeInSection delay={100}>
               <h3 className="text-xl font-bold mb-4 tracking-tight">Multi-Class Vision</h3>
               <p className="text-gray-400 font-light text-sm leading-relaxed">
-                Identify 40+ disease classes including Melanoma, Basal Cell Carcinoma, and rare conditions with a single pass inference using our custom DL backbones.
+                Identify 8+ disease classes including Melanoma, Basal Cell Carcinoma, and rare conditions with a single pass inference using our custom DL backbones.
               </p>
             </FadeInSection>
             <FadeInSection delay={200}>
